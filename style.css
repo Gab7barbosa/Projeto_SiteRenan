@@ -1,7 +1,32 @@
-
-.items{
-    background-color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-color: rgb(224, 223, 223);
+
+.cabeçalho{
+    display: flex;
+    background-color: rgb(194, 139, 245);
+    align-items: center;
+    justify-content: space-between;
+    background-size: 100%;
+    height: 115px;
+    padding: 0px 100px;
+    color: aliceblue;
+    gap: 10px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3 ease;
+    flex-direction: row;
+}
+
+a:hover{
+    transform: scale(10px);
+    color: chartreuse;
+}
+li{
+    list-style: none;
 }
