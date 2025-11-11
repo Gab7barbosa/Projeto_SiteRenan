@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Oswald', sans-serif;
 }
 
-.navbar{
+.navbar {
     display: flex;
     background-color: rgb(194, 139, 245);
     align-items: center;
@@ -20,11 +21,10 @@ body{
     color: rgb(0, 0, 0);
     gap: 10px;
     flex-direction: row;
-    
 }
 
 
-.navega>a{
+.navega>a {
     display: flex;
     color: aliceblue;
     text-decoration: none;
@@ -36,11 +36,15 @@ body{
 }
 
 
-.navega:hover{
+.navega:hover {
     color: black;
     font-size: 50px;
 }
-.logo{
+
+.logo {
     height: 100px;
     width: 250px;
-}   
+}
+body{
+    background-image: url(iam);
+}

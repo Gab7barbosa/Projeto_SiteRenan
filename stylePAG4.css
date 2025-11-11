@@ -40,7 +40,7 @@ li {
 .imagemsEVAS {
     display: flex;
     flex-direction: row;
-    padding: 200px;
+    padding: 50px;
     gap: 200px;
 }
 
