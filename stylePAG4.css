@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.cabeçalho{
+.cabeçalho {
     display: flex;
     background-color: rgb(194, 139, 245);
     align-items: center;
@@ -16,48 +16,68 @@
     gap: 10px;
 }
 
-a{
+a {
     color: aliceblue;
     text-decoration: none;
     transition: all 0.3 ease;
     flex-direction: row;
 }
 
-a:hover{
+a:hover {
     transform: scale(10px);
     color: chartreuse;
 }
-li{
+
+li {
     list-style: none;
 }
 
-.logo{
+.logo {
     height: 100px;
     width: 100px;
 }
- 
-.imagemsEVAS{
-    display: flex;
-    flex-direction: column;
 
-    
+.imagemsEVAS {
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    gap: 200px;
 }
 
-.imagemsEVAS img{
+.imagemsEVAS img {
     display: block;
-
 }
 
-h1{
+h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     align-items: center;
 }
 
-p{
+p {
     display: flex;
     align-items: center;
     justify-content: center;
     align-items: center;
+}
+
+.eva01 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva02 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva03 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva05 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
