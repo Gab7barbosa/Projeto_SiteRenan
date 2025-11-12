@@ -6,7 +6,7 @@
 
 .cabeçalho {
     display: flex;
-    background-color: rgb(194, 139, 245);
+    background-color: rgb(37, 7, 66);
     align-items: center;
     justify-content: space-between;
     background-size: 100%;
@@ -21,11 +21,6 @@ a {
     text-decoration: none;
     transition: all 0.3 ease;
     flex-direction: row;
-}
-
-a:hover {
-    transform: scale(10px);
-    color: chartreuse;
 }
 
 li {

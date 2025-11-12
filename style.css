@@ -34,17 +34,15 @@ body {
     text-decoration: none;
     font-size: 22px;
 }
-
-
-.navega:hover {
-    color: black;
-    font-size: 50px;
-}
-
 .logo {
     height: 100px;
     width: 250px;
 }
 body{
-    background-image: url(iam);
+    background-image: url(iamgemdeFundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.items{
+    color: aliceblue;
 }
