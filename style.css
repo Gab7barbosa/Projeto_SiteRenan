@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
+ /* --codigo da navbar e pagina 1-- */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@ body {
     background-size: 100%;
     height: 115px;
     padding: 0px 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(246, 245, 245);
     gap: 10px;
     flex-direction: row;
 }
@@ -39,10 +39,73 @@ body {
     width: 250px;
 }
 body{
-    background-image: url(iamgemdeFundo.png);
+    background-image: url(imagems/iamgemdeFundo.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .items{
-    color: aliceblue;
+    color: rgb(242, 243, 247);
 }
+/* ---------- */
+
+ /* --codigos da pagina 2 -- */
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+/* -- codigos da pagina 3 -- */
+/* ----------------- */
+
+/* -- codigos da pagina 4 -- */
+
+imagemsEVAS {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 200px;
+}
+
+.imagemsEVAS img {
+    display: block;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ .p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.eva01 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva02 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva03 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.eva05 img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+/* ------------- */
+/* -- codigos da pagina 5 -- */
