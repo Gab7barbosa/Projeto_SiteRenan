@@ -72,6 +72,11 @@ li {
 }
 
 /* -- codigos da pagina 3 -- */
+.conteudo3{
+background-color: rgb(0, 0, 0);
+border: 10px solid rgb(255, 255, 255);
+/* ajustar a altura e largura das caixas além de dar um melhor alinhamento delas na página */
+}
 
 /* ----------------- */
 
